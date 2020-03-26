@@ -17,14 +17,20 @@ class Model{
 	return $rows;	
 	}
         
-        public static function getCarsList(){
-	$sql = "SELECT * FROM `carsinfo`";
+        public static function getOldCarsList(){
+	$sql = "SELECT * FROM `oldcars`";
 	$db=new database();
 	$rows=$db->getAll($sql);
 	return $rows;	
 	}
-         public static function getCarsListMain(){
-	$sql = "SELECT * FROM `carsinfo` WHERE CarId = 1";
+        public static function getNewCarsList(){
+	$sql = "SELECT * FROM `newcars`";
+	$db=new database();
+	$rows=$db->getAll($sql);
+	return $rows;	
+	}
+         public static function getCarsList(){
+	$sql = "SELECT * FROM `newcars` WHERE CarId = 1";
 	$db=new database();
 	$rows=$db->getAll($sql);
 	return $rows;	

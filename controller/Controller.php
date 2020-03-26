@@ -3,7 +3,7 @@
 
 class Controller{
 	public static function StartSite(){
-                $carsListMain=Model::getCarsListMain();
+                $carsList=Model::getCarsList();
 		include_once 'view/start.php';
 		
 	}
@@ -33,9 +33,13 @@ class Controller{
 	include_once 'view/coursesList.php';	
 		
 	}
-        public static function CarsList(){
-		$carsList=Model::getCarsList();
-		include_once 'view/carsList.php';
+        public static function OldCarsList(){
+		$newcarsList=Model::getOldCarsList();
+		include_once 'view/newcarsList.php';
+	}
+        public static function NewCarsList(){
+		$oldcarsList=Model::getNewCarsList();
+		include_once 'view/oldcarsList.php';
 	}
         
 		

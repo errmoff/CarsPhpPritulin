@@ -13,7 +13,7 @@ function __construct() {
 	$this->host='localhost';
 	$this->user='root';
 	$this->password='';
-	$this->baseName='courses1';
+	$this->baseName='cars';
 	$this->connect();
 }
 

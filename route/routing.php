@@ -16,8 +16,12 @@ elseif($path == 'courses'){
 	$response = controller::Courses();
 }
 
-elseif($path == 'carsList'){
-	$response = controller::CarsList();        
+elseif($path == 'newcarsList'){
+	$response = controller::NewCarsList();        
+	
+}
+elseif($path == 'oldcarsList'){
+	$response = controller::OldCarsList();        
 	
 }
 elseif($path=='category' && isset($_GET['id'])){

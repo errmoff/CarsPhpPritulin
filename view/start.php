@@ -12,7 +12,7 @@
 			<div class="home_slider_container">
 				<div class="owl-carousel owl-theme home_slider">
 					 ';
-                                        foreach($carsListMain as $Car){
+                                        foreach($carsList as $Car){
 					echo'<!-- Slide -->
 					<div class="owl-item">
 						 

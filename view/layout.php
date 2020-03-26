@@ -21,6 +21,8 @@ $path = explode('/', $host)[$num];
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
         <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="Untitled1.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
         <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
         <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
@@ -66,7 +68,8 @@ $path = explode('/', $host)[$num];
                             <li><a href="./">Home page</a></li>
                             <li><a href="courses">Categories</a></li>
                             <li><a href="contacts">Contacts</a></li>
-                            <li><a href="carsList">Cars</a></li>
+                            <li><a href="newcarsList">Новые Автомобили</a></li>
+                            <li><a href="oldcarsList">Поддержанные Автомобили</a></li>
                         </ul>
                     </nav>
                     <div class="header_right d-flex flex-row align-items-center justify-content-start ml-auto">
